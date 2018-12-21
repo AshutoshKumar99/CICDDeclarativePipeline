@@ -31,7 +31,8 @@ pipeline
           {
               steps
               {
-                  archive "target/**/*"
+                archive target/*.war
+
               }
           }
           
