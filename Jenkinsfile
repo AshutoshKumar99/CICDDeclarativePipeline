@@ -9,22 +9,6 @@ pipeline
       stages
       {
           
-          stage('Project Name')
-          {
-              steps 
-              {
-                  echo 'Ashutosh Kumar'
-              }
-          }
-          
-          stage('Checkout Code')
-          {
-             steps
-             {
-                 git 'https://github.com/AshutoshKumar99/CICDDeclarativePipeline.git'
-             }
-          }
-          
           stage('Build code')
           {
               
