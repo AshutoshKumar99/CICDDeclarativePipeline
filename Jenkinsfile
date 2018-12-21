@@ -1,26 +1,17 @@
 pipeline
 {
-agent any
+ agent any
 
 stages
 {
 stage('Project Name')
 {
-step
+steps
 {
-echo "XBECIndia"
-
+echo 'XBECIndia'
 }
 
 }
-
-
-
-
+  
 }
-
-
-
-
-
 }
