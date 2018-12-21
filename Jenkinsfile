@@ -53,7 +53,7 @@ pipeline
 				
 			}
 			success{
-				slackSend color: 'good', message: 'SUCCESS.....'
+				slackSend color: 'good', message: 'Build successfully completed'
 				
 			}
 		}
