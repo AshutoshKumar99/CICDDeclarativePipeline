@@ -1,0 +1,46 @@
+Starting Application v0.0.1-SNAPSHOT on IN-7QQXPN2-10 with PID 19436 (C:\Program Files\Pitney Bowes\SpectrumSpatialAnalyst\Migration\Analyst2018.2Migration-0.0.1-SNAPSHOT.jar started by NEX0OYZ in C:\Program Files\Pitney Bowes\SpectrumSpatialAnalyst\Migration)
+No active profile set, falling back to default profiles: default
+Application startup failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:801)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.afterRefresh(SpringApplication.java:769)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1185)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1174)
+	at com.pb.ssa.Application.main(Application.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:58)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at com.pb.ssa.Application.run(Application.java:31)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798)
+	... 14 more
+Starting Application v0.0.1-SNAPSHOT on IN-7QQXPN2-10 with PID 13132 (C:\Program Files\Pitney Bowes\SpectrumSpatialAnalyst\Migration\Analyst2018.2Migration-0.0.1-SNAPSHOT.jar started by NEX0OYZ in C:\Program Files\Pitney Bowes\SpectrumSpatialAnalyst\Migration)
+No active profile set, falling back to default profiles: default
+Application startup failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:801)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.afterRefresh(SpringApplication.java:769)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1185)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1174)
+	at com.pb.ssa.Application.main(Application.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:58)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at com.pb.ssa.Application.run(Application.java:31)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798)
+	... 14 more
