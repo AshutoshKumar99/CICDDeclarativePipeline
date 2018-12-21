@@ -27,7 +27,7 @@ pipeline
           }
           
           
-          stage('Archieve_it')
+          stage('Archive artifact')
           {
               steps
               {
